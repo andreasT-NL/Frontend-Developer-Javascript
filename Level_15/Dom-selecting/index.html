@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <!-- hier zet je de code in de head tags -->
+  <title>09 HTML Flexbox-Blog</title>
+</head>
+
+<body>
+  <header class="border-1">
+    <h1>MY MAIN TITLE</h1>
+  </header>
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">home</a></li>
+      <li><a href="blog.html">blog</a></li>
+      <li><a href="contact.html">contact</a></li>
+</ul>
+  </nav>
+  <main class="border-2">
+    <article>
+      <h3>SUBTITLE ONE</h3>
+      <p> this and that about food and other things like health sunstainability worldwide and so on Lorem
+        ipsum dolor sit
+        amet consectetur adipisicing elit. Soluta sint similique quae ullam eos <em>laboriosam</em> perspiciatis.
+        Tenetur
+        accusamus, veritatis debitis vel provident non, nihil nostrum nobis id assumenda, explicabo labore.
+        and a lot more text
+        should be written here...</p>
+      <section>
+        <h4 class="indent">This is an indent for the first line<br>
+          note it's all there
+        </h4>
+        <ul>
+          <li>brood</li>
+          <li>appels</li>
+          <li>melk</li>
+        </ul>
+      </section>
+    </article>
+    <article>
+      <h3>SUBTITLE TWO</h3>
+      <p> this is and that about food and other things like health sunstainability worldwide and so on
+        Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Soluta sint similique quae ullam eos <em>laboriosam</em> perspiciatis.
+        Tenetur
+        accusamus, veritatis debitis vel provident non, nihil nostrum nobis id assumenda, explicabo labore.
+        and a lot more text
+        should be written here...</p>
+      <section>
+        <h4 class="indent">list of things</h4>
+        <ul>
+          <li>brood</li>
+          <li>appels</li>
+          <li>melk</li>
+        </ul>
+      </section>
+    </article>
+    <form name="contact expanded" method="POST" data-netlify="true">
+      <label for="name">name</label>
+      <input type="text" name="name" id="name" required />
+      <label for="email">email:</label>
+      <input type="email" name="email">
+      <label for="phone">phone:</label>
+      <input type="tel" name="phone">
+      <label for="age">age:</label>
+      <input type="number" name="age">
+      <label for="date">date of birth:</label>
+      <input type="date" name="date">
+      <h3> <label>gender</label></h3>
+      <label for="male">male:</label>
+      <input type="radio" name="gender" value="male">
+      <label for="female">female:</label>
+      <input type="radio" name="gender" value="female">
+      <h3> <label>favorit cuisine</label></h3>
+      <label for="French">French</label>
+      <input type="checkbox" name="French" value="yes">
+      <label for="Italian">Italian</label>
+      <input type="checkbox" name="Italian" value="yes">
+      <label for="Spanish">Spanish</label>
+      <input type="checkbox" name="Spanish" value="yes">
+      <label for="Arabic">Arabic</label>
+      <input type="checkbox" name="Arabic" value="yes">
+      <label for="color">favorit color:</label>
+      <input type="color" name="color">
+      <label for="bio">about me:</label>
+      <textarea name="bio" id="" cols="30" rows="10"></textarea>
+      <label for="file">upload latest cecipe:</label>
+      <input type="file" name="file">
+      <label for="url">website:</label>
+      <input type="url" name="url">
+      <button type="reset">reset</button>
+      <button type="submit">send</button>
+    </form>
+  </main>
+  <footer class="border-3">
+    <a href="about.html">about</a>
+    <br>
+    <a href="https://google.com" target="_blank">go to google (opens in new tab)</a>
+  </footer>
+  <!-- hier zet je de code in de body tags-->
+  <script src="DOM-selecting.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+  }
+
+.flex-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+width: 100%;
+
+}
+.blog-post {
+    border: 1px solid black;
+    background-color: lightgreen;
+    margin: 20px;
+    width: 300px;
+}
+
+body {
+    color: dimgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+h1 {
+    color: orangered;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+    font-size: 6em;
+    text-align: center; 
+    margin: 0px;
+}
+
+h2 {
+    color: orangered;
+    font-size: 3em;
+    text-align: center; 
+    margin-top: 0px;
+}
+
+h4 {
+    font-size: 1.25em;
+    line-height: 1.4em;
+color: yellow;
+text-decoration: underline;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.4em;
+}
+
+em {
+    color: lightcyan;
+}
+
+.menu   {
+    border: solid medium silver;
+    border-radius: 10px;
+    max-width: auto;
+    background-color: yellow;
+    text-align: center;
+}
+
+.menu li
+{
+    list-style: none;
+    display: inline;
+    width: auto;
+    margin: 0px;
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.border-1 {
+    border: dotted 20px blue;
+    max-height: auto;
+    margin: 30px 0px;
+    padding: 0px;    
+}
+
+.border-2 {
+    border: ridge red 8px;
+    margin: auto;    
+    background: lightgreen;
+    min-width: 200px;
+    padding: 0px 15px;  
+}
+.border-3 {
+    border: dashed yellow 5px;
+    margin: 30px 0px 30px; 
+    padding: 10px;  
+}
+
+label, input {
+    display: block;
+    padding: 2px;
+}
+
+button {
+    display: block;
+}
+
+/*  @mediaqueries */
+
+@media (min-width: 1024px) {
+    body {
+        background-color: darkblue;
+        color: lightgray;
+        margin: 0px 130px;
+    }
+    .border-1 {
+        border: dotted 20px lightskyblue;
+    }
+    .border-2 {
+        border: ridge rgb(230, 80, 80) 8px;
+        background-color: darkcyan;
+    }
+    .border-3 {
+        background-color: honeydew;
+        border: yellow solid;
+    }
+    h4, p {
+        font-size: 1.1em;
+    }
+
+}
